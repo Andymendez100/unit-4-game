@@ -1,0 +1,46 @@
+.titleBox{
+    background-color: #B0581F;
+    height: 100px;
+    width: 20%;
+    margin-bottom: 1%;
+}
+.directionBox{
+    background-color: #ECE4B4;
+    width: 40%;
+    color: green;
+    font-size: 20px;
+    padding-bottom:20%;
+    margin-bottom:1%;
+}
+.randomNumberBox{
+    background-color:#6BC239;
+    height: 150px;
+    width:20%;
+    float: left;
+   
+}
+.winLoseBox{
+    background-color:#54EADF;
+    width:7%;
+    height:117px;
+    position: absolute;
+    left:21%;
+    text-align: center;
+    padding-top:2%;
+    
+    
+}
+.totalScoreText::before{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+
+
+.totalScoreText{
+    background-color:#33B3AA;
+    margin-top: 2%;
+    height:20px;
+    
+}
