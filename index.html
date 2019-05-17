@@ -3,17 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CrystalCollector</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="assets/javascript/game.js"></script>
 </head>
 
 <body>
     <div class="titleBox">
-       <h1> CrystalCollector!</h1>
+        <h1> CrystalCollector!</h1>
 
     </div>
 
@@ -34,19 +33,28 @@
             until you click on it.
         </p>
         <br>
-        <p>Each time when the game starts, the game will change 
+        <p>Each time when the game starts, the game will change
             the values of each crystal.
         </p>
     </div>
-    <div class= "randomNumberBox"></div>
+    <div class="randomNumberBox"></div>
 
-    <div class= "winLoseBox">Wins:
-        <br>
-        <br>
-        Losses:
+    <div class="winLoseBox">
+        <h3>Wins:
+            <span id="wins"></span>
+        </h3>
+        <h3>Losses: 
+            <span id="loss"></span>
+        </h3>
     </div>
 
-    <div class="crystalsBox"></div>
+    <div class="crystalsBox">
+        <img id="green" src="assets/images/Green-crystal.jpg">
+        <img id="red" src="assets/images/Picture-red-crystal.jpg">
+        <img id="silver" src="assets/images/Silver-crystal.jpg">
+        <img id="yellow" src="assets/images/Yellow-crystal.jpg">
+
+    </div>
 
     <div class="totalScoreText">Your total score is: </div>
 
